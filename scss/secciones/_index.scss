@@ -1,0 +1,12 @@
+p{
+    color: $primario;
+}
+.contenedor{
+    background-color: $secundario;
+    .titulo{
+color: $azul;
+    }
+    &:hover{
+        background-color: seagreen;
+    }
+}
